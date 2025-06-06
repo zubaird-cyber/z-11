@@ -1,6 +1,6 @@
 
 function launchApp(app) {
-  const apps = ['zebgx', 'store', 'settings'];
+  const apps = ['Zubgx', 'store', 'settings'];
   apps.forEach(id => {
     const el = document.getElementById('app-' + id);
     if (el) {

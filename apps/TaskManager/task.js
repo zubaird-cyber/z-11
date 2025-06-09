@@ -14,7 +14,7 @@ let gpu = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
 document.getElementById('gpu').textContent = gpu;
 
 // Simulated running apps
-const apps = ['ZebGX', 'Zeb Store', 'Theme Manager'];
+const apps = ['ZubGX', 'Zub Store', 'Theme Manager'];
 let appList = document.getElementById('app-list');
 apps.forEach(app => {
   let li = document.createElement('li');

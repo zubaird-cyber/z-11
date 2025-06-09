@@ -47,7 +47,7 @@ function renderCube() {
 
 function ratePerformance(fps) {
   if (fps > 50) return "🟢 High (Gaming/Multitasking Ready)";
-  if (fps > 30) return "🟡 Medium (Usable for Zeb11)";
+  if (fps > 30) return "🟡 Medium (Usable for Zub11)";
   return "🔴 Low (Consider Lite Mode)";
 }
 

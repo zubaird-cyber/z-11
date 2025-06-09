@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Zeb Task Manager</title>
+  <title>Zub Task Manager</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Zeb Task Manager</h1>
+  <h1>Zub Task Manager</h1>
 
   <div id="tabs">
     <button onclick="showTab('processes')">Processes</button>
@@ -47,7 +47,7 @@
     document.getElementById('gpu').textContent = gpu;
 
     // Simulated running apps
-    const apps = ['ZebGX', 'Zeb Store', 'Theme Manager'];
+    const apps = ['ZubGX', 'Zub Store', 'Theme Manager'];
     let appList = document.getElementById('app-list');
     apps.forEach(app => {
       let li = document.createElement('li');
@@ -79,7 +79,7 @@
 
     function ratePerformance(fps) {
       if (fps > 50) return "🟢 High (Gaming/Multitasking Ready)";
-      if (fps > 30) return "🟡 Medium (Usable for Zeb11)";
+      if (fps > 30) return "🟡 Medium (Usable for Zub11)";
       return "🔴 Low (Consider Lite Mode)";
     }
 

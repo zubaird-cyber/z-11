@@ -1,6 +1,6 @@
 
 function launchApp(app) {
-  const apps = ['zebgx', 'store', 'settings'];
+  const apps = ['zubgx', 'store', 'settings'];
   apps.forEach(id => {
     const el = document.getElementById('app-' + id);
     if (el) {
@@ -26,5 +26,5 @@ function toggleStartMenu() {
 }
 
 function powerOption(action) {
-  alert("Zeb11 will now " + action + ".");
+  alert("Zub11 will now " + action + ".");
 }

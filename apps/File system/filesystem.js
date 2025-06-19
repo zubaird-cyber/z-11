@@ -1,9 +1,9 @@
-let fileSystem = JSON.parse(localStorage.getItem('zeb11_fs')) || {
+let fileSystem = JSON.parse(localStorage.getItem('Zub11_fs')) || {
   root: []
 };
 
 function saveFileSystem() {
-  localStorage.setItem('zeb11_fs', JSON.stringify(fileSystem));
+  localStorage.setItem('Zub11_fs', JSON.stringify(fileSystem));
 }
 
 function renderFileSystem() {
